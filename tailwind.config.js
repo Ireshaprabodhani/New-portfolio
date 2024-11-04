@@ -13,9 +13,16 @@ module.exports = {
         'float-2': 'float 6s ease-in-out infinite 0.4s',
         'grow-line': 'growLine 1.5s ease-out forwards',
         'fade-in-slide': 'fadeInSlide 0.8s ease-out forwards',
-        'spin-slow': 'spin 30s linear infinite',
-        'orbit': 'orbit 20s linear infinite'
+        'orbit': 'orbit 20s linear infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'spin-slow': 'spin-slow 8s linear infinite',
+        'spin-slow': 'spin-slow 6s linear infinite',
+        'tilt': 'tilt 10s infinite linear',
+        'matrix-rain': 'matrix-rain 10s linear infinite',
+        'circuit-path': 'circuit-path 8s linear infinite',
+        'node': 'node 20s linear infinite',
       },
+      
       keyframes: {
         gradient: {
           '0%, 100%': { 
